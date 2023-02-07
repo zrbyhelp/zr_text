@@ -1,7 +1,7 @@
 name: zr_text
 description: A new Flutter package project.
 version: 0.0.1
-homepage:null
+homepage:
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
