@@ -10,6 +10,8 @@ class Tool{
   String number([double? value])=> value==null?"":_appLocalizations.number(value);
   ///年月日国际化
   String yMd([DateTime? dateTime])=> dateTime==null?"":_appLocalizations.yMd(dateTime);
+  ///星期国际化
+  String week([DateTime? dateTime])=>dateTime==null?"":_appLocalizations.week(dateTime);
   ///12小时制时间国际化
   String jm([DateTime? dateTime])=>dateTime==null?"":_appLocalizations.jm(dateTime);
   ///时间为当日只显示时间
