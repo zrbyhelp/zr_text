@@ -1,0 +1,318 @@
+{
+    "number":"{value}",
+    "@number": {
+      "placeholders": {
+        "value": {
+          "type": "double",
+          "format": "decimalPattern"
+        }
+      }
+    },
+    "yMd": "{date}",
+    "@yMd": {
+      "placeholders": {
+        "date": {
+          "type": "DateTime",
+          "format": "yMd"
+        }
+      }
+    },
+    "jm": "{date}",
+    "@jm": {
+      "placeholders": {
+        "date": {
+          "type": "DateTime",
+          "format": "jm"
+        }
+      }
+    },
+
+
+
+
+    "myMessages":"My messages",
+    "shop":"Shop",
+    "customer":"Customer",
+    "specialInstruction":"Special instruction",
+    "account":"Account",
+    "orders":"Orders",
+    "note":"Note",
+    "personalInformation":"Personal information",
+    "team":"Team",
+    "transfer":"Transfer",
+    "language":"Language",
+    "help":"Help",
+    "enter":"Enter",
+    "cancel":"Cancel",
+    "join":"Join",
+    "delete":"Delete",
+    "confirm":"Confirm",
+    "reject":"Reject",
+    "accept":"Accept",
+    "refuse":"Refuse",
+    "settings":"Settings",
+    "all":"All",
+    "done":"Done",
+    "submit":"Submit",
+    "next":"Next",
+    "verification":"Verification",
+    "change":"Change",
+    "update":"Update",
+    "seeAll":"See all",
+    "search":"Search",
+    "yes":"Yes",
+    "no":"No",
+    "rating":"Rating",
+    "reserve":"Reserve",
+    "placeOrder":"Place Order",
+
+
+    "selectMonth":"Select month",
+    "confirmSelect":"Please confirm your select",
+    "verifyIdMsg":"For your security, we need to verify your identity. ",
+    "enterContent":"Enter the content",
+    "enterFirstName":"Enter first name",
+    "enterLastName":"Enter last name",
+    "enterEmail":"Enter email number",
+    "enterYourEmail":"Enter your email",
+    "enterYourNewPassword":"Enter your new password",
+    "repeatYourNewPassword":"repeat your new password",
+    "enterNewPhone":"Please enter your new phone number .",
+    "enterPhone":"Please enter your phone number",
+    "endterSevenCode":"Enter {num}-digit code",
+    "@endterSevenCode": {
+      "placeholders": {
+        "num": {
+          "type": "int"
+        }
+      }
+    },
+
+
+
+
+    "passwordIsInvalid":"password format is invalid",
+    "emailIsInvalid":"Email format is invalid",
+    "nameIsInvalid":"Name format is invalid",
+    "phoneIsInvalid":"Phone format is invalid",
+    "emailCodeIsInvalid":"Email code format is invalid",
+    "codeTo":"A verification code has been to {contact}",
+    "@codeTo": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+    "contentNoEmpty":"Content not's empty!",
+    "passwordNotMatch":"Passwords do not match",
+    "passwordEditedMsg":"Your account password already edited",
+    "phoneNumberAlready":"Your account phone number already edited",
+    "nameEditedMsg":"Your account name already edited",
+    "toLoginMsg":"Please go to the login page to log in again",
+    "backPreviousPage":"Return to the previous page to continue browsing",
+    "leastEightDigitCharacter":"At least {num} characters",
+    "@leastEightDigitCharacter": {
+        "placeholders": {
+          "num": {
+            "type": "int"
+          }
+        }
+    },
+
+
+
+    "imgNoEmpty":"Image not's empty",
+    "addPhoto":"+ Add photo",
+    "photot":"Photo",
+    "camera":"Camera",
+
+    "phone":"Phone number",
+    "name":"Name",
+    "userDoesNotExist":"User does not exist",
+    "email":"Email",
+    "firstName":"First Name",
+    "lastName":"Last Name",
+    "password":"Password",
+
+
+
+    "deleteAccount":"Delete account",
+    "beforeYouGo":"Before you go...",
+    "deleteAccountMsg0":"Your account and personal data will be permanently deleted from {contact} .",
+        "@deleteAccountMsg0": {
+          "placeholders": {
+            "contact": {
+              "type": "String"
+            }
+          }
+        },
+    "deleteAccountMsg1":"All funds and coupons in your account will be forfeited .",
+    "keepMyAccount":"Never mind, keep my account",
+    "accountHasDeleted":"Your account has been deleted",
+    "thankYourUsing":"Thank you for using our product!",
+
+
+
+
+
+
+    "changePassword":"Change password",
+    "forgotPassword":"Forgot password?",
+    "changeTeam":"Change team",
+    "changePhone":"Change phone number",
+    "changeName":"Change name",
+
+
+
+    "january":"January",
+    "januaryMin":"Jan. ",
+    "february":"February",
+    "februaryMin":"Feb. ",
+    "march":"March",
+    "marchMin":"Mar. ",
+    "april":"April",
+    "aprilMin":"Apr. ",
+    "may":"May",
+    "mayMin":"May ",
+    "june":"June",
+    "juneMin":"Jun. ",
+    "july":"July",
+    "julyMin":"Jul.",
+    "august":"August",
+    "augustMin":"Aug. ",
+    "september":"September",
+    "septemberMin":"Sep. ",
+    "october":"October",
+    "octoberMin":"Oct. ",
+    "november":"November",
+    "novemberMin":"Nov. ",
+    "december":"December",
+    "decemberMin":"Dec. ",
+
+    "orderDetail":"Order detail",
+    "theOrderIsNotIn":"The order is not in.",
+    "orderNumber":"Order Number",
+    "totalOrders":"Total orders",
+    "estimateEarningsToday":"Estimate earnings today",
+    "earnings":"Earnings",
+    "total":"Total",
+    "totalEarnings":"Total earnings",
+    "settled":"Settled",
+    "unsettled":"Unsettled",
+    "incomeDetails":"Income details",
+
+
+
+
+
+
+    "hour":"{contact} h",
+    "@hour": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+    "minute":"{contact} m",
+    "@minute": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+    "mi":"{contact} mi",
+    "@mi": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+    "second":"{contact} s",
+    "@second": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+    "items":"{contact} items",
+    "@items": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+
+    "item":"{count, plural, =0{no items} =1{1 item} other{{count} items}}",
+    "@item": {
+      "description": "A plural message",
+      "placeholders": {
+        "count": {
+          "type": "num",
+          "format": "decimalPattern"
+        }
+      }
+    },
+    "completed":"{contact} Completed",
+    "@completed": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+
+
+
+
+    "reviewText":"Reviews",
+    "reviews":"{count, plural, =0{no reviews}  =1{1 review} other{{count} reviews}}",
+    "@reviews": {
+      "description": "A plural message",
+      "placeholders": {
+        "count": {
+          "type": "num",
+          "format": "compact"
+        }
+      }
+    },
+
+
+
+    "and":"and",
+    "agreementStart":"By tapping continue with Google or Apple, you agree to {contact}’s",
+    "@agreementStart": {
+      "placeholders": {
+        "contact": {
+          "type": "String"
+        }
+      }
+    },
+    "agreementTerms":" Terms&Conditions ",
+    "agreementPrivacy":" Privacy Statement .",
+
+    "onlineTalk":"Online talk with customer",
+    "clickTagEnter":"Click the tag  to enter quick Conversation",
+    "editCommonStatement":"Edit common statement",
+    "doYouHelp":"What do you need help with?",
+    "goTo":"Go to",
+    "callThe":"Call the",
+
+    "loginSucceeded":"Login succeeded！",
+    "remoteLoginMsg":"Your device has been logged in in another place, and this account will be automatically logged out. If you are not logged in yourself, please change your password!",
+    "loginAgain":"Login again",
+    "logOut":"Log out",
+    "remoteLogin":"Remote login",
+    "changeAccount":"Change account",
+    "orContinue":"Or continue with",
+    "appleLogin":"Continue with Apple",
+    "googleLogin":"Continue with Google",
+    "emailLogin":"Continue with Email",
+    "signUp":"Sign up",
+    "signIn":"Sign in"
+}
