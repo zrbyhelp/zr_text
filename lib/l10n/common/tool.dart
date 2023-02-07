@@ -1,5 +1,6 @@
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:zr_text/common/date_time.dart';
+
+import '../../gen_l10n/app_localizations.dart';
 class Tool{
   late AppLocalizations _appLocalizations;
   Tool(AppLocalizations appLocalizations){

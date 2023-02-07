@@ -1,4 +1,4 @@
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../../gen_l10n/app_localizations.dart';
 class Change {
   late AppLocalizations _appLocalizations;
   Change(AppLocalizations appLocalizations) {

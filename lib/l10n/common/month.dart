@@ -1,4 +1,4 @@
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../../gen_l10n/app_localizations.dart';
 class Month {
   late AppLocalizations _appLocalizations;
   Month(AppLocalizations appLocalizations) {

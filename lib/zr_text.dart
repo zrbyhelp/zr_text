@@ -1,6 +1,6 @@
 library zr_text;
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'gen_l10n/app_localizations.dart';
 import 'l10n/common/change.dart';
 import 'l10n/common/comm.dart';
 import 'l10n/common/del_account.dart';
