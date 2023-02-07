@@ -31,6 +31,14 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
+  String abbrWeek(DateTime date) {
+    final intl.DateFormat dateDateFormat = intl.DateFormat.E(localeName);
+    final String dateString = dateDateFormat.format(date);
+
+    return '$dateString';
+  }
+
+  @override
   String week(DateTime date) {
     final intl.DateFormat dateDateFormat = intl.DateFormat.EEEE(localeName);
     final String dateString = dateDateFormat.format(date);

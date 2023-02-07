@@ -26,6 +26,15 @@
         }
       }
     },
+    "abbrWeek":"{date}",
+    "@abbrWeek": {
+     "placeholders": {
+       "date": {
+         "type": "DateTime",
+         "format": "E"
+       }
+     }
+    },
     "week":"{date}",
     "@week": {
      "placeholders": {
