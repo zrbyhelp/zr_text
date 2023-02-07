@@ -31,6 +31,14 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
+  String week(DateTime date) {
+    final intl.DateFormat dateDateFormat = intl.DateFormat.EEEE(localeName);
+    final String dateString = dateDateFormat.format(date);
+
+    return '$dateString';
+  }
+
+  @override
   String get myMessages => 'My messages';
 
   @override

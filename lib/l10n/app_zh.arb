@@ -26,6 +26,15 @@
         }
       }
     },
+    "week":"{date}",
+    "@week": {
+     "placeholders": {
+       "date": {
+         "type": "DateTime",
+         "format": "EEEE"
+       }
+     }
+    },
 
 
     "reviewText":"评论",

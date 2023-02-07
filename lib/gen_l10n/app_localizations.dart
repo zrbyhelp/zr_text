@@ -111,6 +111,12 @@ abstract class AppLocalizations {
   /// **'{date}'**
   String jm(DateTime date);
 
+  /// No description provided for @week.
+  ///
+  /// In en, this message translates to:
+  /// **'{date}'**
+  String week(DateTime date);
+
   /// No description provided for @myMessages.
   ///
   /// In en, this message translates to:
