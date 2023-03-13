@@ -32,7 +32,7 @@ class $t{
 
   static of(BuildContext context){
     AppLocalizations appLocalizations = AppLocalizations.of(context)!;
-    _tool = Tool(appLocalizations);
+    _tool = Tool(appLocalizations,context);
     _user = User(appLocalizations);
     _unit = Unit(appLocalizations);
     _phrase = Phrase(appLocalizations);

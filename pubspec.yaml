@@ -8,6 +8,7 @@ environment:
   flutter: ">=1.17.0"
 
 dependencies:
+  duration: ^3.0.12
   flutter:
     sdk: flutter
   #国际化

@@ -1,9 +1,13 @@
+import 'package:duration/duration.dart';
+import 'package:duration/locale.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:zr_text/common/date_time.dart';
 
 import '../../gen_l10n/app_localizations.dart';
 class Tool{
   late AppLocalizations _appLocalizations;
-  Tool(AppLocalizations appLocalizations){
+  late BuildContext context;
+  Tool(AppLocalizations appLocalizations,BuildContext context){
     _appLocalizations = appLocalizations;
   }
   ///数值格式化100,000,000
@@ -24,5 +28,19 @@ class Tool{
       return jm(dateTime);
     }
     return "${yMd(dateTime)} ${jm(dateTime)}";
+  }
+  //持续时间国际化
+  String duration(Duration duration,{
+    bool abbreviated=false,
+    DurationTersity tersity = DurationTersity.second
+  }){
+    final Locale appLocale = Localizations.localeOf(context);
+    return printDuration(
+      duration,
+      abbreviated: abbreviated,
+      tersity:tersity,
+      locale: DurationLocale.fromLanguageCode(appLocale.languageCode)??
+          const EnglishDurationLocale(),
+    );
   }
 }
