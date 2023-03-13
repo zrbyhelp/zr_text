@@ -6,9 +6,10 @@ import 'package:zr_text/common/date_time.dart';
 import '../../gen_l10n/app_localizations.dart';
 class Tool{
   late AppLocalizations _appLocalizations;
-  late BuildContext context;
+  late BuildContext _context;
   Tool(AppLocalizations appLocalizations,BuildContext context){
     _appLocalizations = appLocalizations;
+    _context = context;
   }
   ///数值格式化100,000,000
   String number([double? value])=> value==null?"":_appLocalizations.number(value);
@@ -34,7 +35,7 @@ class Tool{
     bool abbreviated=false,
     DurationTersity tersity = DurationTersity.minute
   }){
-    final Locale appLocale = Localizations.localeOf(context);
+    final Locale appLocale = Localizations.localeOf(_context);
     return printDuration(
       duration,
       abbreviated: abbreviated,
