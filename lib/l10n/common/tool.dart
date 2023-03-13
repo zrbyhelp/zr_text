@@ -32,7 +32,7 @@ class Tool{
   //持续时间国际化
   String duration(Duration duration,{
     bool abbreviated=false,
-    DurationTersity tersity = DurationTersity.second
+    DurationTersity tersity = DurationTersity.minute
   }){
     final Locale appLocale = Localizations.localeOf(context);
     return printDuration(
